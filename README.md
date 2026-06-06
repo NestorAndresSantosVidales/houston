@@ -135,8 +135,8 @@ Every output is embedded, scored, routed, and either accepted into the shared la
 ### Option A — Linux / macOS
 
 ```bash
-git clone https://github.com/your-username/houston-ai-watchdog.git
-cd houston-ai-watchdog
+git clone https://github.com/NestorAndresSantosVidales/houston.git
+cd houston
 chmod +x run_cohesive.sh
 ./run_cohesive.sh
 ```
@@ -144,8 +144,8 @@ chmod +x run_cohesive.sh
 ### Option B — Windows (PowerShell)
 
 ```powershell
-git clone https://github.com/your-username/houston-ai-watchdog.git
-cd houston-ai-watchdog
+git clone https://github.com/NestorAndresSantosVidales/houston.git
+cd houston
 .\run_cohesive.ps1
 ```
 
@@ -201,7 +201,7 @@ The system runs fully in demo mode without any of these.
 
 ## API Overview
 
-Base URL: `http://localhost:8000`  
+Base URL: `http://localhost:8000`
 Interactive docs: **http://localhost:8000/docs**
 
 ```

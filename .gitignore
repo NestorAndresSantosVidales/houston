@@ -28,3 +28,15 @@ training/data/
 
 # Logs
 *.log
+
+# Houston / Tauri build artifacts
+.agents/
+.claude/
+.windsurf/
+.codex/
+skills-lock.json
+.playwright-mcp/
+.wrangler/
+app/src-tauri/resources/bin/
+app/src-tauri/binaries/
+.claude/worktrees/
