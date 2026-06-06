@@ -21,6 +21,45 @@
 > It detects hallucinations, scores agent reliability, quarantines suspicious memory,
 > and prevents bad outputs from spreading across an agent network — before one bad output poisons the whole workflow.
 
+
+## Screenshots
+
+<p align="center">
+  <img src="./Captura%20de%20pantalla%202026-06-06%20170812.png" width="800" alt="Houston AI Screenshot 1" />
+</p>
+
+<p align="center">
+  <img src="./Captura%20de%20pantalla%202026-06-06%20170829.png" width="800" alt="Houston AI Screenshot 2" />
+</p>
+
+<p align="center">
+  <img src="./Captura%20de%20pantalla%202026-06-06%20170841.png" width="800" alt="Houston AI Screenshot 3" />
+</p>
+
+<p align="center">
+  <img src="./Captura%20de%20pantalla%202026-06-06%20170848.png" width="800" alt="Houston AI Screenshot 4" />
+</p>
+
+<p align="center">
+  <img src="./Captura%20de%20pantalla%202026-06-06%20170856.png" width="800" alt="Houston AI Screenshot 5" />
+</p>
+
+<p align="center">
+  <img src="./Captura%20de%20pantalla%202026-06-06%20170906.png" width="800" alt="Houston AI Screenshot 6" />
+</p>
+
+<p align="center">
+  <img src="./Captura%20de%20pantalla%202026-06-06%20170912.png" width="800" alt="Houston AI Screenshot 7" />
+</p>
+
+<p align="center">
+  <img src="./Captura%20de%20pantalla%202026-06-06%20170919.png" width="800" alt="Houston AI Screenshot 8" />
+</p>
+
+<p align="center">
+  <img src="./Captura%20de%20pantalla%202026-06-06%20170929.png" width="800" alt="Houston AI Screenshot 9" />
+</p>
+
 ---
 
 ## The Problem: Hallucination Contagion
