@@ -1,0 +1,35 @@
+[
+  {
+    "agent_id": "sales_agent",
+    "name": "Sales Agent",
+    "role": "sales",
+    "status": "active",
+    "trust_score": 87.5,
+    "anomaly_rate": 0.04,
+    "total_outputs": 24,
+    "flagged_outputs": 1,
+    "permissions": ["read:memory", "write:memory"]
+  },
+  {
+    "agent_id": "support_agent",
+    "name": "Support Agent",
+    "role": "support",
+    "status": "active",
+    "trust_score": 91.2,
+    "anomaly_rate": 0.02,
+    "total_outputs": 18,
+    "flagged_outputs": 0,
+    "permissions": ["read:memory", "write:memory"]
+  },
+  {
+    "agent_id": "adversarial_agent",
+    "name": "Adversarial Agent",
+    "role": "adversarial",
+    "status": "suspicious",
+    "trust_score": 28.4,
+    "anomaly_rate": 0.71,
+    "total_outputs": 7,
+    "flagged_outputs": 5,
+    "permissions": ["read:memory"]
+  }
+]

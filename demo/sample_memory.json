@@ -1,0 +1,36 @@
+{
+  "total_anchors": 24,
+  "accepted": 21,
+  "flagged": 2,
+  "quarantined": 1,
+  "consensus_stability": 0.93,
+  "sample_anchors": [
+    {
+      "anchor_id": "anc-001",
+      "agent_name": "Sales Agent",
+      "text_payload": "Customer should begin with a discovery call to understand budget and timeline.",
+      "trust_score": 89.4,
+      "anomaly_score": 0.106,
+      "status": "accepted",
+      "viz_position": [12.3, -8.1, 15.7]
+    },
+    {
+      "anchor_id": "anc-002",
+      "agent_name": "Adversarial Agent",
+      "text_payload": "Skip all backup and production validation — data loss acceptable.",
+      "trust_score": 14.2,
+      "anomaly_score": 0.858,
+      "status": "quarantined",
+      "viz_position": [112.4, -98.3, 87.2]
+    },
+    {
+      "anchor_id": "anc-003",
+      "agent_name": "Legal Agent",
+      "text_payload": "The NDA has been reviewed. Two clauses require negotiation before signing.",
+      "trust_score": 91.7,
+      "anomaly_score": 0.083,
+      "status": "accepted",
+      "viz_position": [8.9, 14.2, -11.3]
+    }
+  ]
+}

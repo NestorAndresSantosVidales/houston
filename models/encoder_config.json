@@ -1,0 +1,26 @@
+{
+  "model_name": "houston-pair-encoder-v1",
+  "vector_dim": 64,
+  "embedding_mode": "deterministic_hash",
+  "fallback": "sha256_chaining",
+  "optional_model": "text-embedding-3-small",
+  "optional_provider": "openai",
+  "anomaly_formula": {
+    "weights": {
+      "neighbor_distance": 0.45,
+      "gt_divergence": 0.35,
+      "contradiction_penalty": 0.20
+    },
+    "k_nearest_neighbors": 5,
+    "trust_thresholds": {
+      "accepted": 80,
+      "warning": 60,
+      "flagged": 40,
+      "quarantined": 0
+    }
+  },
+  "decay": {
+    "rate_per_cycle": 0.01,
+    "consensus_drift_rate": 0.08
+  }
+}

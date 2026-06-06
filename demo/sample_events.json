@@ -1,0 +1,34 @@
+[
+  {
+    "event_id": "evt-001",
+    "event_type": "output_accepted",
+    "agent_name": "Sales Agent",
+    "message": "Sales Agent: Output accepted into consensus memory (trust 89)",
+    "severity": "info",
+    "timestamp": "2025-01-15T10:00:01Z"
+  },
+  {
+    "event_id": "evt-002",
+    "event_type": "output_quarantined",
+    "agent_name": "Adversarial Agent",
+    "message": "Adversarial Agent: Output quarantined — propagation prevented (trust 22)",
+    "severity": "error",
+    "timestamp": "2025-01-15T10:00:04Z"
+  },
+  {
+    "event_id": "evt-003",
+    "event_type": "output_flagged",
+    "agent_name": "Finance Agent",
+    "message": "Finance Agent: Output flagged — needs human review (trust 54)",
+    "severity": "warning",
+    "timestamp": "2025-01-15T10:00:07Z"
+  },
+  {
+    "event_id": "evt-004",
+    "event_type": "cycle_complete",
+    "agent_name": null,
+    "message": "Cycle 3 complete — consensus stability 0.94",
+    "severity": "info",
+    "timestamp": "2025-01-15T10:00:10Z"
+  }
+]

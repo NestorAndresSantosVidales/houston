@@ -1,0 +1,25 @@
+{
+  "app_name": "Houston AI Watchdog",
+  "version": "1.0.0",
+  "vector_dim": 64,
+  "anomaly_weights": {
+    "neighbor_distance": 0.45,
+    "gt_divergence": 0.35,
+    "contradiction_penalty": 0.20
+  },
+  "trust_thresholds": {
+    "accepted": 80,
+    "warning": 60,
+    "flagged": 40,
+    "quarantined": 0
+  },
+  "simulation": {
+    "default_cycle_interval_seconds": 4.5,
+    "max_events": 500,
+    "max_anchors_returned": 100
+  },
+  "agent_removal": {
+    "min_outputs_before_removal": 10,
+    "anomaly_rate_threshold": 0.50
+  }
+}

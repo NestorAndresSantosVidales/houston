@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.env
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+dist/
+.DS_Store
+
+# Models / data
+models/pair_encoder_weights.pt
+models/pair_encoder_scaler.pkl
+training/data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
